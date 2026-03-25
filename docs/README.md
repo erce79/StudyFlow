@@ -31,14 +31,15 @@ generates study schedules based on exam dates, topics, and student progress.
 - View personalized schedules
 
 ## Project Structure
-studyflow:
- -docs:
-    -uml
-    -architecture
- -src:
-    -frontend
-    -backend
-
- README.md
-
+studyflow/
+│
+├── docs/
+│   ├── uml/
+│   ├── architecture/
+│
+├── src/
+│   ├── frontend/
+│   └── backend/
+│
+└── README.md
 
