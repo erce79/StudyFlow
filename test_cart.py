@@ -28,3 +28,4 @@ class TestCart(unittest.TestCase):
         self.cart.add_item("apple", 50, 1)
         self.cart.apply_discount("SAVE10")
         self.assertEqual(self.cart.get_total(), 45)
+
